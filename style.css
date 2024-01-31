@@ -1,0 +1,82 @@
+/* google open sans font style  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0D1117;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Navigation Bar starts here */
+.NaviBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(207, 233, 254, 0.17);
+    margin: 1.5em;
+    padding: 0 1em 0 1em;
+}
+
+.leftNav img {
+    width: 125px;
+    height: 60px;
+}
+
+.rightNav {
+    display: flex;
+    gap: 1.5em;
+}
+
+.rightNav li {
+    list-style: none;
+}
+
+.rightNav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* navigation bar ends here */
+/* Home part 1 starts here */
+.Hpart1 {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+
+.Hpart1Left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4em;
+    gap: 2em;
+}
+
+.Hpart1Left h1 {
+    font-size: 80px;
+}
+
+.Hpart1Left p {
+    font-size: 20px;
+    color: #8B949E;
+}
+
+.Hpart2Right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Rightimg img {
+    margin-left: 3em;
+}
